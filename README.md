@@ -1,5 +1,5 @@
 # 3-D Game Bomb Defusal
-4th Major Project for MSCH-220, 12/10/2023
+5th Major Project for MSCH-220, 12/10/2023
 
 A 3D game taking inspiration from pac-man for it's basic mechanics. There's a bomb strapped to you, find the defusal kit while avoiding the terrorists to save yourself. Obtain donuts along the way to boost your score. While it may be hard to find them, listening close may be key.
 
