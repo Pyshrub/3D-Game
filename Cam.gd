@@ -10,6 +10,6 @@ func _ready():
 func _process(delta):
 	pass
 func update_time():
-	$Time.text = "Time Left:" + str(Global.timer)
+	$Time.text = "Time Left: " + str(Global.timer)
 func update_points():
-	$Points.text = "Points:" + str(Global.points)
+	$Points.text = "Points: " + str(Global.points)

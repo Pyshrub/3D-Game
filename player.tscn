@@ -34,12 +34,17 @@ script = ExtResource("3_heqgm")
 [node name="Time" type="Label3D" parent="Pivot/Cam"]
 transform = Transform3D(1, 6.6815e-22, 0, 6.6815e-22, 1, 0, 0, 0, 1, -3, 2, -2)
 pixel_size = 0.01
-text = "Time Left:"
+text = "Time Left: 60"
 
 [node name="Points" type="Label3D" parent="Pivot/Cam"]
 transform = Transform3D(1, 6.6815e-22, 0, 6.6815e-22, 1, 0, 0, 0, 1, 2, 2, -2)
 pixel_size = 0.01
 text = "Points:"
+
+[node name="space" type="Label3D" parent="Pivot/Cam"]
+transform = Transform3D(1, 6.6815e-22, 0, 6.6815e-22, 1, 0, 0, 0, 1, 1.43051e-06, -1, -1)
+pixel_size = 0.01
+text = "*Press Space*"
 
 [node name="bomb" parent="." instance=ExtResource("4_2frhp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 6, 2)

@@ -17,10 +17,12 @@ var scent_trail = []
 var Effects
 const Balloon = preload("res://Dialogue/balloon.tscn")
 var played = false
-
-
+var bound = true
+func release():
+	bound = false
 func _unhandled_input(event):
 	if event.is_action_pressed("dialogue") and not played:
+		$Pivot/Cam/space.hide()
 		var balloon = Balloon.instantiate()
 		get_tree().current_scene.add_child(balloon)
 		balloon.start(load("res://Dialogue/Dialogue.dialogue"), "main")
@@ -33,7 +35,7 @@ func _physics_process(delta):
 		velocity = velocity.normalized() * Max_Speed
 	move_and_slide()
 func get_input():
-	if Input.is_action_pressed("forward"):
+	if Input.is_action_pressed("forward") and not bound:
 		if rotate_left == true:
 			velocity.x += SPEED
 		elif rotate_right == true:

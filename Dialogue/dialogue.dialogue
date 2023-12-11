@@ -9,5 +9,5 @@ Terrorist: We're blowing you sky high!
 - End the conversation => END
 You: I should find a way to defuse this... while dodging anyone I can see
 set Global.start()
-
+set Global.release()
 => END

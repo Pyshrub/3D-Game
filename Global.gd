@@ -33,3 +33,7 @@ func start():
 	var time = get_node_or_null("/root/Game/Timer")
 	if time != null:
 		time.start()
+func release():
+	var player = get_node_or_null("/root/Game/Player")
+	if player!= null:
+		player.release()

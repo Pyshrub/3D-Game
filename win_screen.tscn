@@ -19,11 +19,13 @@ grow_vertical = 2
 script = ExtResource("1_drq8i")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
 offset_right = 1160.0
 offset_bottom = 649.0
 color = Color(0.117647, 0.431373, 0.733333, 1)
 
 [node name="Label" type="Label" parent="."]
+layout_mode = 0
 offset_left = 427.0
 offset_top = 52.0
 offset_right = 778.0
@@ -33,6 +35,7 @@ label_settings = SubResource("LabelSettings_216b6")
 horizontal_alignment = 1
 
 [node name="Score" type="Label" parent="."]
+layout_mode = 0
 offset_left = 435.0
 offset_top = 127.0
 offset_right = 736.0
@@ -42,6 +45,7 @@ label_settings = SubResource("LabelSettings_re40f")
 horizontal_alignment = 1
 
 [node name="Button" type="Button" parent="."]
+layout_mode = 0
 offset_left = 550.0
 offset_top = 355.0
 offset_right = 645.0
@@ -49,6 +53,7 @@ offset_bottom = 386.0
 text = "Play Again?"
 
 [node name="Button2" type="Button" parent="."]
+layout_mode = 0
 offset_left = 553.0
 offset_top = 445.0
 offset_right = 648.0
@@ -56,6 +61,7 @@ offset_bottom = 476.0
 text = "Quit"
 
 [node name="Remaining_Time" type="Label" parent="."]
+layout_mode = 0
 offset_left = 449.0
 offset_top = 237.0
 offset_right = 750.0
