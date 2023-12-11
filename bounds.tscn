@@ -1,0 +1,1932 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0ekt528g6dth"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w3yml"]
+size = Vector3(1, 20.1865, 10)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bamws"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bwl14"]
+albedo_color = Color(1, 0, 0, 1)
+
+[node name="Bounds" type="Node3D"]
+
+[node name="Wall_133" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 80.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_133"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_133"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_134" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 90.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_134"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_134"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_135" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 100.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_135"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_135"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_136" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 110.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_136"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_136"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_137" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 120.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_137"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_137"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_138" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 130.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_138"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_138"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_139" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 140.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_139"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_139"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_140" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 150.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_140"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_140"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_141" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 0.166679)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_141"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_141"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_142" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 10.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_142"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_142"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_143" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 20.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_143"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_143"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_144" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 30.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_144"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_144"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_145" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 40.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_145"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_145"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_146" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 50.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_146"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_146"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_147" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 60.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_147"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_147"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_148" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 70.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_148"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_148"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_149" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -79.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_149"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_149"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_150" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -69.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_150"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_150"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_151" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -59.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_151"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_151"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_152" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -49.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_152"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_152"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_153" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -39.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_153"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_153"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_154" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -29.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_154"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_154"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_155" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -19.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_155"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_155"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_156" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -9.83331)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_156"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_156"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_157" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -159.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_157"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_157"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_158" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -149.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_158"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_158"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_159" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -139.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_159"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_159"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_160" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -129.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_160"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_160"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_161" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -119.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_161"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_161"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_162" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -109.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_162"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_162"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_163" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -99.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_163"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_163"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_164" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -89.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_164"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_164"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_165" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -199.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_165"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_165"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_166" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -189.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_166"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_166"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_167" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -179.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_167"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_167"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_168" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, -169.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_168"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_168"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_169" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 160.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_169"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_169"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_170" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 170.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_170"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_170"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_171" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 180.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_171"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_171"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_172" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 207.333, 0, 190.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_172"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_172"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_173" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -80.6666, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_173"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_173"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_174" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -90.6666, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_174"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_174"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_175" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -100.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_175"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_175"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_176" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -110.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_176"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_176"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_177" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -120.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_177"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_177"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_178" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -130.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_178"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_178"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_179" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -140.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_179"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_179"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_180" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -150.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_180"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_180"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_181" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -0.666595, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_181"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_181"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_182" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -10.6666, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_182"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_182"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_183" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -20.6666, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_183"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_183"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_184" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -30.6666, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_184"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_184"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_185" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -40.6666, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_185"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_185"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_186" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -50.6666, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_186"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_186"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_187" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -60.6666, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_187"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_187"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_188" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -70.6666, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_188"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_188"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_189" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 79.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_189"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_189"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_190" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 69.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_190"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_190"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_191" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 59.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_191"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_191"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_192" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 49.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_192"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_192"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_193" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 39.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_193"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_193"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_194" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 29.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_194"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_194"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_195" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 19.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_195"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_195"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_196" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 9.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_196"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_196"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_197" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 159.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_197"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_197"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_198" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 149.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_198"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_198"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_199" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 139.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_199"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_199"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_200" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 129.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_200"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_200"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_201" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 119.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_201"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_201"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_202" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 109.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_202"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_202"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_203" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 99.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_203"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_203"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_204" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 89.3334, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_204"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_204"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_205" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 199.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_205"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_205"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_206" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 189.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_206"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_206"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_207" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 179.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_207"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_207"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_208" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 169.333, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_208"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_208"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_209" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -160.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_209"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_209"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_210" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -170.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_210"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_210"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_211" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -180.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_211"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_211"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_212" type="StaticBody3D" parent="."]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -190.667, 0, 208.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_212"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_212"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_213" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -80.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_213"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_213"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_214" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -90.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_214"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_214"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_215" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -100.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_215"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_215"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_216" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -110.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_216"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_216"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_217" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -120.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_217"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_217"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_218" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -130.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_218"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_218"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_219" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -140.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_219"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_219"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_220" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -150.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_220"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_220"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_221" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -0.833311)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_221"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_221"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_222" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -10.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_222"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_222"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_223" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -20.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_223"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_223"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_224" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -30.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_224"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_224"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_225" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -40.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_225"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_225"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_226" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -50.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_226"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_226"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_227" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -60.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_227"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_227"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_228" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -70.8333)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_228"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_228"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_229" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 79.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_229"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_229"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_230" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 69.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_230"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_230"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_231" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 59.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_231"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_231"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_232" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 49.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_232"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_232"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_233" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 39.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_233"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_233"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_234" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 29.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_234"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_234"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_235" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 19.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_235"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_235"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_236" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 9.16668)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_236"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_236"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_237" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 159.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_237"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_237"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_238" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 149.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_238"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_238"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_239" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 139.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_239"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_239"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_240" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 129.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_240"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_240"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_241" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 119.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_241"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_241"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_242" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 109.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_242"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_242"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_243" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 99.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_243"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_243"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_244" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 89.1667)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_244"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_244"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_245" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 199.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_245"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_245"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_246" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 189.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_246"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_246"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_247" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 179.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_247"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_247"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_248" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, 169.167)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_248"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_248"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_249" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -160.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_249"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_249"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_250" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -170.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_250"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_250"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_251" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -180.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_251"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_251"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_252" type="StaticBody3D" parent="."]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -206.667, 0, -190.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_252"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_252"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_253" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.3334, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_253"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_253"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_254" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90.3334, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_254"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_254"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_255" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 100.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_255"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_255"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_256" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 110.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_256"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_256"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_257" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_257"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_257"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_258" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 130.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_258"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_258"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_259" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 140.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_259"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_259"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_260" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_260"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_260"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_261" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.333405, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_261"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_261"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_262" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.3334, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_262"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_262"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_263" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.3334, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_263"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_263"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_264" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.3334, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_264"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_264"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_265" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.3334, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_265"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_265"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_266" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.3334, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_266"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_266"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_267" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.3334, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_267"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_267"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_268" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.3334, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_268"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_268"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_269" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -79.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_269"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_269"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_270" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -69.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_270"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_270"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_271" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -59.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_271"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_271"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_272" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -49.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_272"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_272"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_273" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_273"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_273"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_274" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_274"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_274"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_275" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_275"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_275"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_276" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_276"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_276"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_277" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -159.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_277"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_277"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_278" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -149.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_278"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_278"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_279" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -139.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_279"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_279"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_280" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -129.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_280"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_280"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_281" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -119.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_281"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_281"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_282" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -109.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_282"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_282"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_283" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -99.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_283"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_283"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_284" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.6666, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_284"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_284"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_285" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -199.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_285"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_285"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_286" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -189.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_286"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_286"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_287" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -179.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_287"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_287"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_288" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -169.667, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_288"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_288"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_289" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 160.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_289"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_289"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_290" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 170.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_290"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_290"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_291" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 180.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_291"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_291"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bamws")
+size = Vector3(10, 20, 1)
+
+[node name="Wall_292" type="StaticBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 190.333, 0, -207.833)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Wall_292"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 5, 10.0501, 8.73928)
+shape = SubResource("BoxShape3D_w3yml")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Wall_292"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 10.05, 8.739)
+material_override = SubResource("StandardMaterial3D_bwl14")
+size = Vector3(10, 20, 1)

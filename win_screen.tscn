@@ -1,0 +1,73 @@
+[gd_scene load_steps=5 format=3 uid="uid://ecurp1g4qyw0"]
+
+[ext_resource type="Script" path="res://Win_Screen.gd" id="1_drq8i"]
+[ext_resource type="AudioStream" uid="uid://cqas56kfefbq8" path="res://thunderbolt.ogg" id="2_kypgf"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_216b6"]
+font_size = 40
+
+[sub_resource type="LabelSettings" id="LabelSettings_re40f"]
+font_size = 30
+
+[node name="Win_Screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_drq8i")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1160.0
+offset_bottom = 649.0
+color = Color(0.117647, 0.431373, 0.733333, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 427.0
+offset_top = 52.0
+offset_right = 778.0
+offset_bottom = 168.0
+text = "Defusal Complete!"
+label_settings = SubResource("LabelSettings_216b6")
+horizontal_alignment = 1
+
+[node name="Score" type="Label" parent="."]
+offset_left = 435.0
+offset_top = 127.0
+offset_right = 736.0
+offset_bottom = 243.0
+text = "Your Score:"
+label_settings = SubResource("LabelSettings_re40f")
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+offset_left = 550.0
+offset_top = 355.0
+offset_right = 645.0
+offset_bottom = 386.0
+text = "Play Again?"
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 553.0
+offset_top = 445.0
+offset_right = 648.0
+offset_bottom = 476.0
+text = "Quit"
+
+[node name="Remaining_Time" type="Label" parent="."]
+offset_left = 449.0
+offset_top = 237.0
+offset_right = 750.0
+offset_bottom = 353.0
+text = "Time Left:"
+label_settings = SubResource("LabelSettings_re40f")
+horizontal_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_kypgf")
+volume_db = -5.32
+autoplay = true
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

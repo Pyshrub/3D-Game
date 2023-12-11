@@ -1,0 +1,13 @@
+~ main
+
+You: [[Hi|Hello|Howdy]],uh... what's going on with this bomb?
+Terrorist: We're blowing you sky high!
+- Why..?
+	Terrorist: For fun!
+- Can I refuse?
+	Terrorist: No! Blast him Boys!
+- End the conversation => END
+You: I should find a way to defuse this... while dodging anyone I can see
+set Global.start()
+
+=> END

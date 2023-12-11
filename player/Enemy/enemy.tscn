@@ -1,0 +1,63 @@
+[gd_scene load_steps=8 format=3 uid="uid://crghvismh8gw0"]
+
+[ext_resource type="Script" path="res://player/Enemy/Enemy.gd" id="1_x5mkq"]
+[ext_resource type="PackedScene" uid="uid://b5bjlpg5ppwgl" path="res://Duo.glb" id="2_0sl5w"]
+[ext_resource type="Script" path="res://player/Enemy/StateMachine.gd" id="3_27rjm"]
+[ext_resource type="Script" path="res://player/Enemy/Chase.gd" id="4_iqd4b"]
+[ext_resource type="AudioStream" uid="uid://bdt2oy8t2cgnc" path="res://dirty_bubblegum_boring_bye_but_fight.wav" id="5_0lvlp"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_0gptc"]
+radius = 1.38127
+height = 10.5538
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_luyi1"]
+
+[node name="Enemy" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -7.09602, 0)
+script = ExtResource("1_x5mkq")
+
+[node name="Duo" parent="." instance=ExtResource("2_0sl5w")]
+transform = Transform3D(1.77405, 0, 0, 0, 3.2366, 0, 0, 0, 2.38022, 33, 6.45296, 2)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33, 12.7868, 2)
+shape = SubResource("CapsuleShape3D_0gptc")
+
+[node name="look" type="RayCast3D" parent="."]
+transform = Transform3D(-5.88658e-07, -141.725, 0, 13.4669, -6.19501e-06, 0, 0, 0, 6.18997, 34.8209, 10.8675, 1.95584)
+collision_mask = 8
+
+[node name="look2" type="RayCast3D" parent="."]
+transform = Transform3D(2.57311e-14, 3.84564e-06, -6.18997, 13.4669, -3.84564e-06, 0, -5.88659e-07, -87.978, -2.70572e-07, 33.2575, 10.8675, 1.95584)
+collision_mask = 8
+
+[node name="look3" type="RayCast3D" parent="."]
+transform = Transform3D(5.88659e-07, 111.195, 5.41145e-07, 13.4669, -4.86048e-06, 0, 5.14622e-14, 9.72096e-06, -6.18998, 34.8209, 10.8675, 1.95584)
+collision_mask = 8
+
+[node name="StateMachine" type="Node" parent="."]
+script = ExtResource("3_27rjm")
+
+[node name="Chase" type="Node" parent="StateMachine"]
+script = ExtResource("4_iqd4b")
+
+[node name="look4" type="RayCast3D" parent="."]
+transform = Transform3D(2.57311e-14, 4.31064e-06, -6.18997, 13.4669, -4.31064e-06, 0, -5.88659e-07, -98.6159, -2.70572e-07, 33.2575, 10.8675, -78.6704)
+collision_mask = 8
+
+[node name="Area3D" type="Area3D" parent="."]
+collision_layer = 8
+collision_mask = 8
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(8.69494, 0, 0, 0, 15.6659, 0, 0, 0, 7.9446, 33.2795, 12.191, 1.89534)
+shape = SubResource("SphereShape3D_luyi1")
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.4465, 12.5648, 1.35676)
+stream = ExtResource("5_0lvlp")
+volume_db = -4.571
+autoplay = true
+max_distance = 100.0
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]
